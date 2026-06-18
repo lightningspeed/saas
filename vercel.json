@@ -1,0 +1,4 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "devCommand": "npx concurrently -k \"next dev --port $PORT\" \".venv/bin/uvicorn api.index:app --host 127.0.0.1 --port 8000 --reload\""
+}
