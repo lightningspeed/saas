@@ -4,7 +4,8 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <meta name="description" content="AI-powered business idea generation" />
+        <title>Healthcare Consulting Assistant</title>
+        <meta name="description" content="AI-powered medical consulting assistant" />
       </Head>
       <body>
         <Main />
